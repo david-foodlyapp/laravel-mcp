@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    'foodly' => [
+        'restaurants_url' => env(
+            'FOODLY_RESTAURANTS_URL',
+            'https://api.foodly.dev/api/website/restaurants',
+        ),
+    ],
+
 ];
